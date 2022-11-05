@@ -5,7 +5,7 @@
 // 
 // Create Date: 02/24/2020 11:13:44 AM
 // Design Name: 
-// Module Name: OTTER_Wrapper
+// Module Name: otter_wrapper
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module OTTER_Wrapper(
+module otter_wrapper(
    input CLK,
    input BTNL,
    input BTNC,
@@ -110,4 +110,4 @@ OTTER_MCU  my_otter(
             default: IOBUS_in=32'b0;
         endcase
     end
-   endmodule
+endmodule
