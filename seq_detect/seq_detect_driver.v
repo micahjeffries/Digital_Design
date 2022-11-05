@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Micah Jeffries
 // 
 // Create Date: 11/15/2019 03:49:02 PM
 // Design Name: 
@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: 
+// Description: Test Bench for sequence detector
 // 
 // Dependencies: 
 // 
@@ -18,6 +18,7 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+
 
 
 module seq_detect_driver(
@@ -42,7 +43,7 @@ module seq_detect_driver(
     wire fsm_Z; 
         
     // dummy FSM module
-    fsm_seq  my_fsm (
+    seq_detect  my_fsm (
         .clk (clk_slow),
  //       .clk (clk),
         .btn (btn),

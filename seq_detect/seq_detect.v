@@ -1,11 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: Micah Jeffries and Yale Hone
+// Engineer: Micah Jeffries
 // 
 // Create Date: 11/15/2019 03:35:40 PM
 // Design Name: 
-// Module Name: Sequence_Detector
+// Module Name: seq_detect
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -21,7 +21,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module fsm_seq(
+module seq_detect(
     input clk,
     input btn,
     input x,
