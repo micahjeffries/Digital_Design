@@ -1,11 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Micah Jeffries
 // 
 // Create Date: 12/18/2019 10:36:42 PM
 // Design Name: 
-// Module Name: Divider
+// Module Name: divider
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Divider(
+module divider(
     input [5:0] A,
     input [5:0] B,
     input BTN,
