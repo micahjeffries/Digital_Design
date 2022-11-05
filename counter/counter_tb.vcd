@@ -1,0 +1,445 @@
+$date
+	Sat Nov 05 13:10:47 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module counter_tb $end
+$var wire 4 ! AN [3:0] $end
+$var wire 8 " SSEGS [7:0] $end
+$var reg 1 # CLK $end
+$var reg 1 $ EVEN $end
+$var reg 1 % HOLD $end
+$var reg 1 & ODD $end
+$var reg 1 ' RESET $end
+$var reg 1 ( UP $end
+$scope module cntr $end
+$var wire 4 ) AN [3:0] $end
+$var wire 1 * CLK $end
+$var wire 1 + EVEN $end
+$var wire 1 , HOLD $end
+$var wire 1 - ODD $end
+$var wire 1 . REG_CLK $end
+$var wire 1 / RESET $end
+$var wire 8 0 SSEGS [7:0] $end
+$var wire 1 1 UP $end
+$var wire 4 2 data_in [3:0] $end
+$var wire 1 3 ns $end
+$var wire 1 4 ps $end
+$scope module MY_DIV $end
+$var wire 1 * clockin $end
+$var wire 1 . clockout $end
+$var reg 26 5 count [25:0] $end
+$upscope $end
+$scope module MY_FSM $end
+$var wire 1 . clk $end
+$var wire 1 6 even $end
+$var wire 1 7 hold $end
+$var wire 1 8 odd $end
+$var wire 1 / reset_n $end
+$var wire 1 9 up $end
+$var wire 4 : x_in [3:0] $end
+$var reg 2 ; NS [1:0] $end
+$var reg 2 < PS [1:0] $end
+$upscope $end
+$scope module my_univ_sseg $end
+$var wire 4 = c1_d0 [3:0] $end
+$var wire 4 > c1_d1 [3:0] $end
+$var wire 4 ? c1_d2 [3:0] $end
+$var wire 4 @ c1_d3 [3:0] $end
+$var wire 4 A c2_d0 [3:0] $end
+$var wire 4 B c2_d1 [3:0] $end
+$var wire 1 * clk $end
+$var wire 14 C cnt1 [13:0] $end
+$var wire 7 D cnt2 [6:0] $end
+$var wire 1 E dp_en $end
+$var wire 2 F dp_sel [1:0] $end
+$var wire 2 G mod_sel [1:0] $end
+$var wire 1 H sclk $end
+$var wire 1 I sign $end
+$var wire 1 J valid $end
+$var reg 4 K A_1000_digit [3:0] $end
+$var reg 4 L B_100_digit [3:0] $end
+$var reg 4 M C_10_digit [3:0] $end
+$var reg 4 N D_1_digit [3:0] $end
+$var reg 4 O disp_en [3:0] $end
+$var reg 4 P final_BCD [3:0] $end
+$var reg 2 Q m_cnt [1:0] $end
+$var reg 8 R seg_val [7:0] $end
+$var reg 8 S ssegs [7:0] $end
+$scope module CC_14 $end
+$var wire 14 T cnt [13:0] $end
+$var wire 2 U sel [1:0] $end
+$var reg 4 V c1_d0 [3:0] $end
+$var reg 4 W c1_d1 [3:0] $end
+$var reg 4 X c1_d2 [3:0] $end
+$var reg 4 Y c1_d3 [3:0] $end
+$var reg 14 Z cnt_new [13:0] $end
+$var reg 14 [ cnt_new_w [13:0] $end
+$var reg 4 \ d0 [3:0] $end
+$var reg 4 ] d1 [3:0] $end
+$var reg 4 ^ d2 [3:0] $end
+$var reg 4 _ d3 [3:0] $end
+$upscope $end
+$scope module CC_7 $end
+$var wire 7 ` cnt [6:0] $end
+$var reg 4 a c2_d0 [3:0] $end
+$var reg 4 b c2_d1 [3:0] $end
+$var reg 8 c cnt_new [7:0] $end
+$var reg 8 d cnt_new_w [7:0] $end
+$var reg 4 e d0 [3:0] $end
+$var reg 4 f d1 [3:0] $end
+$upscope $end
+$scope module CLK_DIV $end
+$var wire 1 * clockin $end
+$var wire 1 H clockout $end
+$var reg 14 g count [13:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx g
+bx f
+bx e
+bx d
+bx c
+b1111 b
+bx a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0x \
+b0x [
+b0x Z
+b0 Y
+b0 X
+b0 W
+b0x V
+b0 U
+b0x T
+b11 S
+b11 R
+bx Q
+b0 P
+bx O
+b0x N
+b0 M
+b0 L
+b1111 K
+1J
+0I
+xH
+b0 G
+b0 F
+0E
+b0 D
+b0x C
+b1111 B
+bx A
+b0 @
+b0 ?
+b0 >
+b0x =
+bx <
+b0 ;
+b0 :
+09
+08
+07
+06
+bx 5
+x4
+03
+b0 2
+01
+b11 0
+1/
+x.
+0-
+0,
+0+
+0*
+bx )
+0(
+1'
+0&
+0%
+0$
+0#
+b11 "
+bx !
+$end
+#1000
+1#
+1*
+#2000
+0#
+0*
+#3000
+1#
+1*
+#4000
+0#
+0*
+#5000
+b0 N
+b1111 M
+b1111 L
+b0 V
+b0 =
+b1111 W
+b1111 >
+b1111 X
+b1111 ?
+b1111 Y
+b1111 @
+b0 [
+b0 \
+13
+b0 Z
+b1 ;
+b0 C
+b0 T
+04
+b0 <
+19
+1#
+1*
+1(
+11
+b1 2
+b1 :
+0'
+0/
+#6000
+0#
+0*
+#7000
+1#
+1*
+#8000
+0#
+0*
+#9000
+1#
+1*
+#10000
+0#
+0*
+#11000
+1#
+1*
+#12000
+0#
+0*
+#13000
+1#
+1*
+#14000
+0#
+0*
+#15000
+1#
+1*
+#16000
+0#
+0*
+#17000
+1#
+1*
+#18000
+0#
+0*
+#19000
+1#
+1*
+#20000
+0#
+0*
+#21000
+1#
+1*
+#22000
+0#
+0*
+#23000
+1#
+1*
+#24000
+0#
+0*
+#25000
+1#
+1*
+#26000
+0#
+0*
+#27000
+1#
+1*
+#28000
+0#
+0*
+#29000
+1#
+1*
+#30000
+0#
+0*
+#31000
+1#
+1*
+#32000
+0#
+0*
+#33000
+1#
+1*
+#34000
+0#
+0*
+#35000
+1#
+1*
+#36000
+0#
+0*
+#37000
+1#
+1*
+#38000
+0#
+0*
+#39000
+1#
+1*
+#40000
+0#
+0*
+#41000
+1#
+1*
+#42000
+0#
+0*
+#43000
+1#
+1*
+#44000
+0#
+0*
+#45000
+1#
+1*
+#46000
+0#
+0*
+#47000
+1#
+1*
+#48000
+0#
+0*
+#49000
+1#
+1*
+#50000
+0#
+0*
+#51000
+1#
+1*
+#52000
+0#
+0*
+#53000
+1#
+1*
+#54000
+0#
+0*
+#55000
+03
+b10 ;
+16
+09
+1#
+1*
+1$
+1+
+0(
+01
+b10 2
+b10 :
+#56000
+0#
+0*
+#57000
+1#
+1*
+#58000
+0#
+0*
+#59000
+1#
+1*
+#60000
+13
+b11 ;
+18
+06
+0#
+0*
+1&
+1-
+0$
+0+
+b100 2
+b100 :
+#61000
+1#
+1*
+#62000
+0#
+0*
+#63000
+1#
+1*
+#64000
+0#
+0*
+#65000
+03
+b0 ;
+17
+08
+1#
+1*
+1%
+1,
+0&
+0-
+b1000 2
+b1000 :
+#66000
+0#
+0*
+#67000
+1#
+1*
+#68000
+0#
+0*
+#69000
+1#
+1*
+#70000
+0#
+0*
