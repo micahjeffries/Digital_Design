@@ -1,9 +1,9 @@
 //FSM that keeps track of the present and next state of the counter
-module fsm_template(reset_n, x_in, clk, NS, PS); 
+module fsm(reset_n, x_in, clk, NS, PS); 
     input  reset_n, clk;
     input [3:0] x_in; 
     //- next state & present state variables
-    output reg [1:0] NS, PS;
+    output reg [2:0] NS, PS;
     
     //Assign the x_in input as the four synchronous control inputs of the counter
     wire up, even, odd, hold;

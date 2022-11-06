@@ -22,7 +22,7 @@
 //////////////////////////////////////////////////////////////////////////////
 
 `include "clk_divider_nbit.v"
-`include "fsm_template.v"
+`include "fsm.v"
 `include "univ_sseg.v"
 
 module counter(
@@ -49,7 +49,7 @@ module counter(
         .clockout (REG_CLK)           );
     
     //FSM that keeps track of the present and next state of the counter
-    fsm_template MY_FSM (
+    fsm MY_FSM (
         .reset_n (RESET),
         .x_in (data_in),
         .clk (REG_CLK),
