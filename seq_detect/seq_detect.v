@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+//`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: Micah Jeffries
@@ -20,7 +20,6 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module seq_detect(
     input clk,
     input btn,
@@ -29,20 +28,16 @@ module seq_detect(
     );
     
     //- next state & present state variables
-    reg [2:0] NS, PS; 
+    reg [2:0] NS;
     //- bit-level state representations
     parameter [2:0] st_A=3'b000, st_B=3'b001, st_C=3'b010, st_D=3'b011;
     parameter [2:0] st_E=3'b100, st_F=3'b101, st_G=3'b110;
     
-    //- model the state registers
-    always @ (posedge clk)
-          PS <= NS;
-    
     //- model the next-state and output decoders      
-    always @ (x,btn)
+    always @ (posedge clk)
     begin
     z = 0;// assign all outputs
-    case(PS)
+    case(NS)
         st_A:
         begin
             z = 0;        
@@ -78,7 +73,7 @@ module seq_detect(
             else if (x == 1 & btn == 0)
                 NS = st_E;
             else if (x == 0 & btn == 1)
-                NS = st_F;   
+                NS = st_E;   
             else
                 NS = st_A;
         end
